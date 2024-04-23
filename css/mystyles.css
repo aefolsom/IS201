@@ -1,0 +1,30 @@
+.post-subtitle{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(36, 164, 211);
+    font-weight: lighter; 
+}
+.post-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(38, 119, 149);
+    font-weight: bold;
+}
+a{
+    text-decoration-line: underline;
+    color: rgb(36, 164, 211);
+}
+.logo{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 20%;
+}
+.column{
+    float: left;
+    width: 15%;
+    
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
